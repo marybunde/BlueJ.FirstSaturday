@@ -22,7 +22,9 @@ public class WriteLoops {
             // calling
             w = w + 1;
             // each time through the loop
-
+    for (int i = 0; i < 5; i++) {
+        w++;
+    }
         // this will tell the test how many times the loop executed.
         return w;
     }
@@ -34,7 +36,9 @@ public class WriteLoops {
         // calling
         w = w + 1;
         // each time through the loop
-        
+        for (int i = 0; i < 10; i++){
+            w++;
+        }
         return w;
     }
 
@@ -45,7 +49,9 @@ public class WriteLoops {
         // calling
         w = w + 1;
         // each time through the loop
-        
+        for (int i = 21; i <=31; i++){
+            w++;
+        }
         return w;
     }
 
@@ -56,7 +62,9 @@ public class WriteLoops {
         // calling
         w = w + 1;
         // each time through the loop
-        
+        for (int i = 100; i > 0; i--){
+            w++;
+        }
         return w;
     }
 
@@ -67,6 +75,9 @@ public class WriteLoops {
         // calling
         w = w + 1;
         // each time through the loop
+        for (int i = 0; i <=32; i+=2){
+            w++;
+        }
         return w;
     }
 
@@ -77,7 +88,9 @@ public class WriteLoops {
         // calling
         w = w + 1;
         // each time through the loop
-        
+        for (int i = 1; i < 5001; i +=11){
+            w++;
+        }
         return w;
     }
 
@@ -89,7 +102,11 @@ public class WriteLoops {
                 // calling
                 w = w + 1;
                 // each time through the inner loop
-
+    for (int i = 0; i < 20; i++){
+        for (int j = 0; j < 5; j++){
+            w++;
+        }
+    }
         return w;
     }
 
@@ -104,7 +121,13 @@ public class WriteLoops {
                 // calling
                 w = w + 1;
             // each time through the inner loop
-        
+        for (int i = 5; i < 105; i++){
+            if (i > 51){
+                System.out.println("Hello Zipcode");
+            }else {
+                w++;
+            }
+        }
         return w;
     }
 
